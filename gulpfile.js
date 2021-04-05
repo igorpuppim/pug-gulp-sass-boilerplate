@@ -28,8 +28,8 @@ gulp.task('sass', function(){
 }); 
 
 gulp.task('default', function(){
-    gulp.watch('src/pug/*',  gulp.series('pug'));
-    gulp.watch('src/sass/*', gulp.series('sass'));
+    gulp.watch('src/pug/*/*',  gulp.series('pug'));
+    gulp.watch('src/sass/*/*', gulp.series('sass'));
     gulp.watch('src/js/*',   gulp.series('compress'));
     return
 });
