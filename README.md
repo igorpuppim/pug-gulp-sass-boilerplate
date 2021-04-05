@@ -2,7 +2,7 @@
 Boilerplate for easy landing page development
 
 
-#Hello fellow developer!
+## Hello fellow developer!
 Tired of building complex structures for quick projects? 
 I GOTCHU, clone this beauty and run ``gulp`` on your favourite terminal.
 
